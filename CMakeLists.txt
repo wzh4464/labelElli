@@ -14,8 +14,8 @@ set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_PROJECT_VERSION ${PROJECT_VERSION})
 set(CMAKE_CXX_STANDARD 17)
 SET(CMAKE_BUILD_TYPE "Debug")
-include_directories(/opt/homebrew/include/)
-include_directories(/opt/homebrew/Cellar/opencv/4.5.5_1/include/opencv4/)
+# include_directories(/opt/homebrew/include/)
+# include_directories(/opt/homebrew/Cellar/opencv/4.5.5_1/include/opencv4/)
 
 # # print dir
 # get_property(dirs DIRECTORY ${CMAKE_SOURCE_DIR} PROPERTY INCLUDE_DIRECTORIES)
